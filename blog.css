@@ -1,0 +1,428 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: sans-serif;
+     color:rgb(148, 148, 150);
+}
+
+html,body{
+    height:100%;
+    width: 100%;
+}
+
+
+nav{
+    padding: 20px;
+    background-image: url('images/banner.png');
+   height:400px;   
+}
+.nav-main{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+   
+}
+/* nav links li */
+.nav-links ul{
+    display: flex;
+    gap:30px;
+}
+.nav-links ul li {
+      list-style-type :none;
+      padding-top: 10px;
+   
+}
+.nav-links ul li a {
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "Noto Sans", sans-serif; 
+    color:white;
+    text-decoration: none;
+}
+.nav-links ul li a span{
+    color:#ffb700;
+} 
+.nav-links ul li a:hover{
+    color:#ffb700;
+    cursor: pointer;
+}
+
+  /* nav logo img */
+.nav-logo img{
+    width:200px;
+   
+} 
+.nav-logo img:hover{
+    cursor: pointer;
+}
+
+/*  nav img+button */
+.nav-links2 {
+    display: flex;
+    gap:30px;
+}
+.nav-links2  img{
+   
+    width:30px;
+    object-fit: contain;
+    color:white;
+}
+.nav-links2  img:hover{
+    cursor: pointer;
+}
+.nav-links2 button{
+  
+
+    padding:14px 30px;
+    font-weight: 600;
+    background-color:#ffb700;
+    color:rgb(13, 2, 2);
+    border-radius : 2px ;
+    border: 1px solid #ffb700;
+    font-family: "Noto Sans", sans-serif;  
+
+}
+.nav-links2 button:hover{
+      background-color: black;
+      cursor: pointer;
+    color:white;
+}
+nav h2,h3{
+    text-align: center;
+
+}
+
+nav h2{
+       
+        transform: translateY(100px);
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 50px;
+    color:white;
+    font-family: var(--font-family);
+}
+nav h3{
+     transform: translateY(100px);
+        font-size: 20px;
+    line-height: 26px;
+    color:rgb(148, 148, 150);
+     font-family: var(--font-family);
+}
+
+
+
+
+   .fastfoods{
+ width:100%;
+
+text-align: center;
+padding:60px;
+
+
+   }
+
+   .fastfoods h2{
+        
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 60px;
+   }
+   .fastfoods p{
+       
+    font-size: 16px;
+    line-height: 28px;
+   }
+.fastfoods-main{
+    
+    padding-top: 40px;
+    display: flex;
+     justify-content:space-around;
+     flex-wrap: wrap;
+    
+
+    
+}
+   .source{
+    font-size: 14px;
+    color: #b0b5b9;
+    margin-bottom: 6px;
+   }
+
+.title{
+    text-align: left;
+    font-size: 18px;
+    color:#010f1c;
+    margin:6px 0;
+    font-weight: bold;
+}
+.desc{
+    font-size: 14px;
+    color: #b0b5b9;
+    line-height: 1.5;
+}
+.read{
+   
+    text-decoration: none;
+ 
+   color:#010f1c;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+   
+}
+
+
+.read:hover{
+   
+   
+   padding: 10px;
+    background-color: #f9b500;
+    color:#000;
+    
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+}
+  .img1 img{
+    width:400px;
+    object-fit: contain;
+ 
+  }
+  .fastfoods-img{
+   
+    width:400px;
+    height:500px;
+    text-align: left;
+   
+   
+  }
+.fastfoods-img img{
+    width:100%;
+    height:auto;
+    object-fit: contain;
+    margin-bottom: 10px;
+   
+}
+
+ .page10{ 
+ margin-top:60px;
+    border-top:2px solid  #ffb700;
+    
+}
+.map iframe{
+    width:100%;
+    border-top:2px solid  #ffb700;
+} 
+
+
+.page11-main{
+    width:100%;
+    display: flex;
+    
+}
+
+.page11-main img{
+    border:1px solid white;
+   width:25%;
+  
+
+}
+
+
+/* page12 */
+
+.page12{
+  
+    background-color: black;
+  
+}
+.page12-main{
+   padding-top:80px;
+   
+    display: flex;
+    justify-content: center;
+    gap:30px;
+  
+}
+.page12-link{
+    width:300px;
+    padding-bottom: 60px;
+  
+   
+}
+.page12-link p{
+    
+     font-size: 16px;
+    line-height: 28px;
+    color:#b0b5b9;
+  
+}
+.home-icon{
+    display: flex;
+    gap: 20px;
+    padding-top:20px;
+
+
+}
+.home-icon div{
+    color:#b0b5b9;
+    font-weight: 500;
+}
+
+
+.page12-link .para{
+   text-align: center;
+       font-size: 24px;
+    line-height: 30px;
+    color:white;
+}
+.link li{
+ 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    list-style: none;
+   padding-top:20px ;
+  
+   
+}
+
+.link {
+   display: flex;
+   justify-content: center;
+   
+}
+.link ul a{
+      text-decoration: none; 
+     color:#b0b5b9;
+
+}
+
+.page12-link .hours{
+    
+       font-size: 24px;
+    line-height: 30px;
+    color:white;
+}
+.days{
+   padding:10px;
+}
+.satu{
+    padding:10px;
+}
+.news-p p{
+   padding-top:30px;
+   
+}
+.textarea1{
+    padding-top:20px;
+  
+}
+.text1{
+    padding-top:20px;
+    
+}
+.text1 input {
+padding:15px;
+width:100%;
+}
+
+
+.page12-link .news{
+    color:white;
+    font-size:24px;
+}
+
+.icons img{
+    width:40px;
+    padding:10px;
+}
+.icons{
+    padding-top:10px;
+}
+
+/* page13 */
+
+.page13{
+    display: flex;
+   justify-content: center;
+   padding-top:40px;
+   height:100px;
+   color:#b0b5b9;
+}
+.page13 .copyright{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: bold;  
+}
+
+.page13 .design{
+        font-size: 16px;
+    line-height: 26px;
+    font-weight: bold;
+
+}
+.page13 .powered{
+        font-size: 16px;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+.page13 .copyright:hover{
+    cursor: pointer;
+    color:black;
+}
+.page13 .design:hover{
+    cursor: pointer;
+    color:black;
+}
+.page13 .powered:hover{
+    cursor: pointer;
+    color:black;
+}
+
+@media only screen and (max-width:480px){
+    .nav-main{
+        display: none;
+    }
+    .fastfoods{
+        padding: 0px;
+    }
+    .page11-main{
+        display: flex;
+    }
+    .map{
+        display: none;
+    }
+    .page11-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .page11-main img{
+        width:100%;
+    }
+    .page12-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .page12-link .link{
+        display: flex;
+       justify-content: left;
+    }
+    .page12-link .para{
+        text-align: left;
+    }
+
+    .page13{
+        display: flex;
+        flex-direction: column;
+      align-items: center;
+    }
+}

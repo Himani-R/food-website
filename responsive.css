@@ -1,0 +1,240 @@
+@media only screen and (max-width:480px){
+ 
+    .nav-main{
+        display: none;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin:0 auto;
+    }
+    .container-text{
+        padding-top:60px;
+        width:100%;
+        margin: 0;
+    }
+    .container-text h2{
+        font-size:20px;
+    }
+    .container-text h1{
+        display: none;
+    }
+    .container-text p{
+        font-size:20px;
+    }
+    .container-img{
+        width:100%;
+        padding-bottom: 60px;
+        margin: 0;
+    }
+    .container-img img{
+        width:100%;
+    }
+
+
+    .page2{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        flex-wrap: wrap;
+        /* border:2px solid red; */
+    }
+    .food-items{
+        display: flex;
+        flex-wrap: wrap;
+        gap:20px;
+        width:100%;
+     
+       
+    }
+    .food-items p{
+        
+         padding-top:60px;
+        
+    }
+    
+   
+    
+    .selling-items{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        /* border:2px solid red; */
+
+    }
+   
+    .selling-item-main {
+    margin: 0 auto;
+    width: 80%;
+}
+ .page6{
+    display: flex;
+   
+    flex-direction: column;
+    
+    width:100%;
+ }
+ .page6 .form{
+    /* border: 2px solid red; */
+    width:100%;
+ }
+.form-container h2{
+    font-size:20px;
+    
+}
+.form-container{
+ padding-top:0px;
+padding-left: 0px;
+}
+.name-email {
+    padding: 10px;
+    width: 100%;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+.input .name-email input{
+    display: flex;
+    width:100%;
+    /* border:2px solid blue; */
+   
+
+}
+.fastfood{
+    padding-top:0px;
+}
+
+.fastfooditems{
+    display: flex;
+    flex-direction: column;
+    /* border:2px solid red; */
+}
+.fastfooditems-main{
+    /* border:2px solid blue; */
+    width:100%;
+}
+
+
+
+.fastfooditems-main h2{
+    text-align: center;
+    padding-top:2px;
+}
+.fastfooditems-main p{
+   
+    text-align: center;
+}
+
+ .Reserve .text h3{
+    font-size: 20px;
+   display: flex;
+   flex-direction: right;
+ }
+.Reserve {
+    background-color: black;
+    width:100%; 
+  
+}
+ .Reserve .text h2{
+    font-size: 25px;
+    color:white;   
+    padding-top:10px;
+ }
+ .Reserve .text h3{
+    text-align: center;
+ }
+ .Reserve-img{
+    display: none;
+ }
+ .page11-main{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+ }
+ .page11-main img{
+    width:100%; 
+
+ }
+
+.testimonials-text{
+    padding-top:0px;
+   
+}
+ .testimonials-main{
+    padding-top:0px;
+    display: flex;
+    flex-direction: column;
+   
+ }
+.testimonials {
+    padding-top:0px;
+    border-top:  2px solid black;
+    background-color: white;
+}
+ .testimonials-main .box-image{
+    width:100%;
+ }
+  .testimonials-main .box{
+   
+    width:100%;
+  }
+
+ .box p {
+    font-size:10px;
+
+ }
+ .offers{
+    display: flex;
+    flex-direction: column;
+    
+ }
+ .offers img{
+    width:100%;
+ }
+
+
+  .page12-main{
+    display: flex;
+    flex-direction: column;
+ }
+
+
+.page12-link p{
+   display: flex;
+   justify-content: left;
+}
+.link{
+  
+    display: flex;
+    justify-content: left;
+}
+.page13{
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+  
+}
+ .fastfoods{
+    padding:0px;
+ }
+ .fastfoods h2{
+    font-size:24px;
+    margin:0px;
+ }
+ .fastfoods p{
+    font-size:16px;
+  line-height: 1;
+ }
+ .fastfoods-main{
+    display: flex;
+    flex-direction: column;
+    height:0%;
+ }
+}
+
+
